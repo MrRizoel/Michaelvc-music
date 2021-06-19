@@ -60,7 +60,7 @@
 
 <details>
 
-<summary> Deploy To Heroku </summary>
+<summary> Click On below pic for Deploy To Heroku </summary>
 
 
 [![DEPLOY](https://telegra.ph/file/964e057be25171b57ebbf.jpg)](https://heroku.com/deploy?template=https://github.com/MrRizoel/Michaelvc-music)
