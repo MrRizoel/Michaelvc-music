@@ -15,9 +15,13 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # Modified by Inukaasith 
 
+import os
+from os import path
 from os import getenv
-
 from dotenv import load_dotenv
+
+if os.path.exists("local.env"):
+    load_dotenv("local.env")
 
 load_dotenv()
 que = {}
