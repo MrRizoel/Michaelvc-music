@@ -1,5 +1,4 @@
-# OxyXmusic (Telegram bot project )
-# Copyright (C) 2021  Inukaasith 
+#MichaelXMusic
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -75,7 +74,7 @@ def song(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = "**🎵 Uploaded by [ 🖤 ℝ𝕚ℤ𝕠𝕖𝕃 🖤 ](https://t.me/TheRiZoeL)**"
+        rep = "**🎵 Uploaded by [ 🖤 ᴍɪᴄʜᴀᴇʟ 🖤 ](https://t.me/DNHxHELL)**"
         secmul, dur, dur_arr = 1, 0, duration.split(":")
         for i in range(len(dur_arr) - 1, -1, -1):
             dur += int(dur_arr[i]) * secmul
