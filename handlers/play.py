@@ -501,8 +501,7 @@ async def play(_, message: Message):
     keyboard = InlineKeyboardMarkup(
             [   
                 [
-                               
-                    InlineKeyboardButton('📖 Pʟᴀʏʟɪsᴛ', callback_data='playlist'),
+ 
                     InlineKeyboardButton('ᴍᴇɴᴜ ⏯ ', callback_data='menu')
                 
                 ],                     
@@ -635,8 +634,7 @@ async def deezer(client: Client, message_: Message):
         return
     keyboard = InlineKeyboardMarkup(
          [   
-             [
-                 InlineKeyboardButton('📖 Pʟᴀʏʟɪsᴛ', callback_data='playlist'),
+    
                  InlineKeyboardButton('мєиυ ⏯ ', callback_data='menu')     
              ],                     
              [
